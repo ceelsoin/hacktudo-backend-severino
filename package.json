@@ -1,0 +1,33 @@
+{
+  "name": "backend-severino",
+  "version": "1.0.0",
+  "description": "calculate routes and proccess delivery",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node ./node_modules/nodemon/bin/nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "JWT",
+    "Sequelize",
+    "MySQL",
+    "Authentication"
+  ],
+  "author": "avud",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.3",
+    "geolib": "^2.0.24",
+    "jsonwebtoken": "^8.3.0",
+    "map-distance": "^0.1.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.39.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
